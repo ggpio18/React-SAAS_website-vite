@@ -4,6 +4,7 @@ import Intro from "./components/Intro"
 import Navbar from "./components/Navbar"
 import Partners from "./components/Partners"
 import Stats from "./components/Stats"
+import Testimonial from "./components/Testimonial"
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Features />
       <Stats />
       <Intro />
+      <Testimonial />
     </div>
   )
 }
