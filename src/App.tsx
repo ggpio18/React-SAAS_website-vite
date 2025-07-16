@@ -1,4 +1,7 @@
+import Action from "./components/Action"
+import Faq from "./components/Faq"
 import Features from "./components/Features"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Intro from "./components/Intro"
 import Navbar from "./components/Navbar"
@@ -17,6 +20,9 @@ const App = () => {
       <Stats />
       <Intro />
       <Testimonial />
+      <Faq />
+      <Action />
+      <Footer />
     </div>
   )
 }
