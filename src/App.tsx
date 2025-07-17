@@ -1,3 +1,4 @@
+
 import Action from "./components/Action"
 import Faq from "./components/Faq"
 import Features from "./components/Features"
@@ -20,8 +21,8 @@ const App = () => {
       <Stats />
       <Intro />
       <Testimonial />
+      <Action/>
       <Faq />
-      <Action />
       <Footer />
     </div>
   )
